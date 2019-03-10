@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Shopping</string>
+    <string name="welcome_to_my_shop">Welcome to My Shop</string>
+    <string name="enter_username">Enter username</string>
+    <string name="password">Password</string>
+    <string name="email_or_username">Email or username</string>
+    <string name="pass">*************</string>
+    <string name="login">LOGIN</string>
+    <string name="view_products">Cart</string>
+    <string name="electronics">Electronics</string>
+    <string name="bill">Bill</string>
+    <string name="add_to_cart">Add to Cart</string>
+    <string name="to_put_item_just_click_on_iten">To put Item just click on item</string>
+    <string name="place_order">Place Order From My Shop</string>
+    <string name="total">Total</string>
+    <array name="category">
+        <item>Select Category</item>
+        <item>Electronics</item>
+        <item>Stationary</item>
+        <item>Furniture</item>
+    </array>
+</resources>
