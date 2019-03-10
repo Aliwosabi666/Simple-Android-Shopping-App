@@ -51,36 +51,7 @@ public class ShoppingMenu extends AppCompatActivity {
         category.setAdapter(adapter);
         context = ShoppingMenu.this;
         final DataBase dataBase = new DataBase(context);
-        /*dataBase.insertDataIntoElec("TV", "2000");
-        dataBase.insertDataIntoElec("Monitor", "12000");
-        dataBase.insertDataIntoElec("Iphone", "25000");
-        dataBase.insertDataIntoElec("Samsung TV", "56000");
-        dataBase.insertDataIntoElec("PC", "14000");
-        dataBase.insertDataIntoElec("Graphic Card", "1000");
-        dataBase.insertDataIntoElec("Keyboard", "15000");
-        dataBase.insertDataIntoElec("Mouse", "200");
-
-        dataBase.insertDataIntoFurn("Chair", "450");
-        dataBase.insertDataIntoFurn("Table", "2000");
-        dataBase.insertDataIntoFurn("Bed", "5000");
-        dataBase.insertDataIntoFurn("Kitchen Rack", "25600");
-        dataBase.insertDataIntoFurn("Gate Wooden", "1250");
-        dataBase.insertDataIntoFurn("Gate Iron", "1500");
-        dataBase.insertDataIntoFurn("Gate Fiber", "1600");
-        dataBase.insertDataIntoFurn("Sofa", "25000");
-
-        dataBase.insertDataIntoStat("Note Book", "200");
-        dataBase.insertDataIntoStat("Pencil", "10");
-        dataBase.insertDataIntoStat("Eraser", "15");
-        dataBase.insertDataIntoStat("Book Java", "2000");
-        dataBase.insertDataIntoStat("C++ Book", "500");
-        dataBase.insertDataIntoStat("Android Book", "200");
-        dataBase.insertDataIntoStat("Oracle Book", "300");
-        dataBase.insertDataIntoStat("Diary", "400");
-
-        dataBase.insertDataIntoLogin("ankesh", "12345678");
-        dataBase.insertDataIntoLogin("chillmarrore", "sabmoahmayahai");
-*/
+        
         category.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
 
             @Override
