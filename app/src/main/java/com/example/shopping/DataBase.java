@@ -11,10 +11,10 @@ public class DataBase extends SQLiteOpenHelper {
 
     private static final String DATABASE_NAME = "shopping";
     private static final int DATABASE_VERSION = 1;
-    public static final String electronics = "electronics";
-    public static final String stationary = "stationary";
-    public static final String furniture = "furniture";
-    public static final String login = "login";
+    static final String electronics = "electronics";
+    static final String stationary = "stationary";
+    static final String furniture = "furniture";
+    static final String login = "login";
 
     private static final String CREATE_TABLE_ELEC = "CREATE TABLE IF NOT EXISTS " + electronics + "(elec_id INTEGER PRIMARY KEY AUTOINCREMENT, name TEXT, price TEXT )";
     private static final String CREATE_TABLE_FURN = "CREATE TABLE IF NOT EXISTS " + furniture + "(func_id INTEGER PRIMARY KEY AUTOINCREMENT, name TEXT , price TEXT )";
